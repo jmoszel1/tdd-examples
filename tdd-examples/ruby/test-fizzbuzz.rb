@@ -26,7 +26,7 @@ class TestFizzBuzz < Minitest::Test
   end
 
   def test_print_fizz_when_multiple_of_3_and_5
-      assert_equal fizzbuzz(5), 'FizzBuzz'
+      assert_equal fizzbuzz(15), 'FizzBuzz'
   end
 end
 
